@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jimmy Thrasher"]
-  s.date = %q{2011-04-13}
+  s.date = %q{2011-04-14}
   s.description = %q{}
   s.email = %q{jimmy@jimmythrasher.com}
   s.extra_rdoc_files = [
@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
     "lib/async_job/controller_methods.rb",
     "lib/async_job/job.rb",
     "lib/async_job/results.rb",
-    "lib/generators/async_jobs_migration/async_job_migration_generator.rb",
-    "lib/generators/async_jobs_migration/templates/migration.rb"
+    "lib/generators/async_job_migration/async_job_migration_generator.rb",
+    "lib/generators/async_job_migration/templates/migration.rb"
   ]
   s.homepage = %q{http://github.com/jjthrash/async_job}
   s.licenses = ["MIT"]
