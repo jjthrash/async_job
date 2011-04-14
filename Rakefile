@@ -23,6 +23,8 @@ Jeweler::Tasks.new do |gem|
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   gem.add_runtime_dependency 'activerecord', '>= 0'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
+
+  gem.files = Dir.glob('lib/**/*.rb')
 end
 Jeweler::RubygemsDotOrgTasks.new
 
