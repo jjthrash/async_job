@@ -1,5 +1,9 @@
 require 'active_record'
 
-class AsyncJob::Results < ActiveRecord::Base
-  serialize :results
+module AsyncJob
+  class Results < ActiveRecord::Base
+    set_table_name "async_job_results"
+
+    serialize :results
+  end
 end
