@@ -17,15 +17,12 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    ".document",
-    "Gemfile",
-    "LICENSE.txt",
-    "README.rdoc",
-    "Rakefile",
-    "VERSION",
     "lib/async_job.rb",
-    "test/helper.rb",
-    "test/test_async_job.rb"
+    "lib/async_job/controller_methods.rb",
+    "lib/async_job/job.rb",
+    "lib/async_job/results.rb",
+    "lib/generators/async_jobs_migration/async_job_migration_generator.rb",
+    "lib/generators/async_jobs_migration/templates/migration.rb"
   ]
   s.homepage = %q{http://github.com/jjthrash/async_job}
   s.licenses = ["MIT"]
