@@ -26,5 +26,14 @@ module AsyncJob
 
       job_results.save
     end
+
+    def encode_with(coder)
+      coder.map = {
+        "object" => object,
+        "method_name" => method_name,
+        "args" => args,
+        "results_id" => @results_id
+      }
+    end
   end
 end
