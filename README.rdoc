@@ -14,6 +14,6 @@ This library is not for public consumption. I've published it so that the ideas 
 
 == Copyright
 
-Copyright (c) 2011 Jimmy Thrasher. See LICENSE.txt for
+Copyright (c) 2011-12 Jimmy Thrasher. See LICENSE.txt for
 further details.
 
