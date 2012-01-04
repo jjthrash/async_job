@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{async_job}
-  s.version = "0.0.1"
+  s.name = "async_job"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jimmy Thrasher"]
-  s.date = %q{2011-04-14}
-  s.description = %q{}
-  s.email = %q{jimmy@jimmythrasher.com}
+  s.date = "2012-01-04"
+  s.description = ""
+  s.email = "jimmy@jimmythrasher.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -24,11 +24,11 @@ Gem::Specification.new do |s|
     "lib/generators/async_job_migration/async_job_migration_generator.rb",
     "lib/generators/async_job_migration/templates/migration.rb"
   ]
-  s.homepage = %q{http://github.com/jjthrash/async_job}
+  s.homepage = "http://github.com/jjthrash/async_job"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.1}
-  s.summary = %q{Simple asynchronous jobs for Rails}
+  s.rubygems_version = "1.8.13"
+  s.summary = "Simple asynchronous jobs for Rails"
   s.test_files = [
     "test/helper.rb",
     "test/test_async_job.rb"
